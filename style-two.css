@@ -1,0 +1,65 @@
+
+.offcanvas-body {
+    padding: 20px;
+}
+
+.menu-options {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-options li {
+    margin-bottom: 10px;
+}
+
+.menu-options li a {
+    display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.menu-options li a:hover {
+    background-color: #ddd;
+}
+
+
+.image-logo{
+    width: 10vh;
+}
+
+.company-name{
+font-size: 25px;
+}
+
+.lottie-arrow{
+    width: 20px;
+}
+
+.lottie-text{
+    width: 30px;
+    background-color: rgb(67, 200, 0);
+    border: 2px rgb(67, 200, 0) solid;
+    border-radius: 100px;
+}
+
+.lottie-text-sale{
+    width: 30px;
+    background-color: rgb(255, 189, 35);
+    border: 2px rgb(235, 189, 35);
+    border-radius: 100px;
+}
+
+.lottie-text-upward{
+    width: 30px;
+    background-color: rgb(200, 0, 33);
+    border: 2px rgb(200, 0, 33) solid;
+    border-radius: 100px;
+}
+
+.rupee{
+    font-size: 50px;
+}
