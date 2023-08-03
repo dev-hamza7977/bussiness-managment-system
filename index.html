@@ -13,34 +13,64 @@
 
 <body>
     <section class="container-fluid">
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-            <!-- Replace 'src' with the actual path to your LottieFile JSON file. -->
-            <lottie-player id='lottie' class="lottie-arrow" src='arrows-next.json'>
-            </lottie-player>
-        </button>
+        <div class="row">
+            <div class=" col-10">
+                <button class="btn btn-primary mt-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <!-- Replace 'src' with the actual path to your LottieFile JSON file. -->
+                    <lottie-player id='lottie' class="lottie-arrow" src='arrows-next.json'>
+                    </lottie-player>
+                </button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary mt-2">ADD SALE</button>
+                <button class="btn btn-primary mt-2">ADD SALE</button>
 
+            </div>
+        </div>
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
             aria-labelledby="offcanvasWithBothOptionsLabel">
-            <div class="offcanvas-header bg-info ">
+            <div class="offcanvas-header bg-info">
                 <div class="offcanvas-title d-flex align-items-center text-center" id="offcanvasWithBothOptionsLabel">
-                    <img src="images/logo.jpg" class="image-logo img-fluid" alt="" srcset="">
+                    <img src="images/logo.png" class="image-logo img-fluid" alt="" srcset="">
                     <h5 class=" company-name mx-3">WEB WONDERS</h5>
                 </div>
                 <button type=" button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <ul class="menu-options">
+                    <li><a href="#">PARTIES</a></li>
                     <li><a href="#">SALE</a></li>
-                    <li><a href="#">Option 2</a></li>
-                    <li><a href="#">Option 3</a></li>
-                    <li><a href="#">Option 4</a></li>
-                    <li><a href="#">Option 5</a></li>
+                    <li><a href="#">PURCHASE</a></li>
+                    <li><a href="#">PAYMENT IN</a></li>
+                    <li><a href="#">PAYMENT OUT</a></li>
+                    <li><a href="#">ITEMS</a></li>
+                    <div class="accordion accordion-flush " id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    REPORTS
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <li><a href="#">SALE</a></li>
+                                    <li><a href="#">PURCHASE</a></li>
+                                    <li><a href="#">PAYMENT IN</a></li>
+                                    <li><a href="#">PAYMENT OUT</a></li>
+                                    <li><a href="#">STOCK</a></li>
+                                </div>
+                            </div>
+                        </div>
+
                 </ul>
             </div>
         </div>
     </section>
-    <section class="container-fluid mt-2">
+    <section class=" container-fluid mt-2">
         <div class="card-sec">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -53,7 +83,8 @@
                             </h5>
                             <p class="card-text rupee text-center">₹
                                 1,20,000</p>
-                            <h5 class="rupee-words text-center">(Rupees One Lakh Twenty Thousand Only.)</h5>
+                            <h5 class="rupee-words text-center">(Rupees One Lakh Twenty Thousand
+                                Only.)</h5>
                         </div>
                     </div>
                 </div>

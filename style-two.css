@@ -12,8 +12,19 @@
     margin-bottom: 10px;
 }
 
+
 .menu-options li a {
     display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.accordion-button{
+    /* display: block; */
     padding: 10px;
     background-color: #f0f0f0;
     color: #333;
@@ -29,6 +40,9 @@
 
 .image-logo{
     width: 10vh;
+    border: 2px solid rgb(255, 230, 0);
+    border-radius: 150px;
+    box-shadow: rgb(0, 123, 255);
 }
 
 .company-name{
