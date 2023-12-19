@@ -77,3 +77,51 @@ font-size: 25px;
 .rupee{
     font-size: 50px;
 }
+
+.table.dataTable.compact>tbody>tr>td.select-checkbox:before{
+    margin-top: -5px;
+}
+
+.border-datr{
+    border: 3px solid grey;
+}
+
+.font-awe-outgoing{
+    background-color: rgb(250, 250, 250); 
+    padding: 10px;
+    color: rgb(255, 0, 0);
+    border: 2px solid red;
+    border-radius: 100px;
+}
+
+.font-awe-sale{
+    background-color: rgb(250, 250, 250); 
+    padding: 10px;
+    color: rgb(255, 183, 0);
+    border: 2px solid rgb(255, 183, 0);;
+    border-radius: 100px;
+}
+
+.font-awe-income{
+    background-color: rgb(250, 250, 250); 
+    padding: 10px;
+    color: rgb(25, 98, 0);
+    border: 2px solid rgb(25, 95, 0);;
+    border-radius: 100px;
+}
+
+.font-awe-purchase{
+    background-color: rgb(250, 250, 250); 
+    padding: 10px;
+    color: rgb(33, 190, 243);
+    border: 2px solid rgb(33, 190, 243);
+    border-radius: 100px;
+}
+
+.font-awe-exp{
+    background-color: rgb(250, 250, 250); 
+    padding: 10px;
+    color: rgb(117, 33, 243);
+    border: 2px solid rgb(117, 33, 243);
+    border-radius: 100px;
+}
